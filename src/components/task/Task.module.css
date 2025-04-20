@@ -46,7 +46,7 @@
 }
 
 .checkbox-container input:checked ~ .checkbox-checkmark {
-  background-image: url(../../img/icon/check.svg);
+  background-image: url(src/assets/img/icon/check.svg);
   background-repeat: no-repeat;
   background-position: center center;
 }
