@@ -4,9 +4,11 @@ body {
   max-width: 600px;
   margin: 0 auto;
   background: #3f72af;
+  padding-top: 20px;
 }
 
 #root {
+  padding-top: 15px;
   max-height: 450px;
   display: flex;
   flex-direction: column;
