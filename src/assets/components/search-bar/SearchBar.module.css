@@ -1,0 +1,62 @@
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15.5px;
+}
+
+.search {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  width: 250px;
+  height: 32px;
+  background: #dbe2ef;
+  border: 1px solid rgba(177, 177, 177, 0.4);
+  border-radius: 5px;
+  outline: none;
+  padding-left: 11px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #7b7b7b;
+}
+
+.submit {
+  outline: none;
+  width: 45px;
+  height: 32px;
+  background: #aaaaaa;
+  border-radius: 0px 5px 5px 0px;
+  border: 0;
+  margin-left: -45px;
+  cursor: pointer;
+  position: relative;
+}
+
+.submit::after,
+.submit::before {
+  content: "";
+  position: absolute;
+}
+
+.submit::after {
+  left: 50%;
+  top: 50%;
+  width: 12px;
+  height: 2px;
+  background-color: #ffffff;
+  border-radius: 50px;
+  transform: translate(-50%, -50%);
+}
+.submit::before {
+  left: 50%;
+  top: 50%;
+  height: 12px;
+  width: 1.5px;
+  background-color: #ffffff;
+  border-radius: 50px;
+  transform: translate(-50%, -50%);
+}
