@@ -1,10 +1,10 @@
 import { useState } from "react";
-import Header from "./assets/components/header/Header";
+import Header from "./components/header/Header";
 
-import Tasks from "./assets/components/tasks/Tasks";
-import { createLocalStorage, setLocalStorage } from "./assets/storage/storage";
+import Tasks from "./components/tasks/Tasks";
+import { createLocalStorage, setLocalStorage } from "./storage/storage";
 
-import SearchBar from "./assets/components/search-bar/SearchBar";
+import SearchBar from "./components/search-bar/SearchBar";
 import classes from "./App.module.css";
 
 localStorage.clear();
